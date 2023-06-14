@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,300;1,100&display=swap');
+      </style>
+    <title>Zelcar Games</title>
+ </head>
+ <body>
+    <header>
+        <div class="logo">
+          <img src="recursos/Logo.png" alt="Logo" width="40px" height="40px">
+        </div>
+        <nav>
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Work Team</a></li>
+            <li><a href="#">Secret Forest</a></li>
+            <li class="Contact"><a href="#" style="color: white;">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="toggle-button">&#9776;</button>
+      </header>
+<main>
+    <div class="TextMain">
+        <h1>Zelcar Games: Game development and the fascinating world of the Secret Forest</p></h1>
+    <button id="learn-more-btn">Learn More</button>
+    <p id="full-text" style="display: none;">Our development team has spent tireless hours creating a game that will engage your senses and spark your imagination. From the beautiful visual aesthetic to the captivating soundtrack, every aspect of Secret Forest has been carefully designed to give you an unforgettable gaming experience.
+        At Zelcar Games, our passion for gaming and creativity drives every aspect of our work. We strive to bring innovation, fun, and excitement through our creations, and Secret Forest is a clear example of our commitment to excellence in game development.</p>
+    <button id="hide-text-btn" style="display: none;">Hide Text</button>
+</div>
+<div class="ImgMain"> <img src="recursos/Dragon.png" alt="Logo"></div>
+</main>
+<footer>
+    <div class="Formcontainer">
+    <form id="contact-form">
+        <h2>Contact Form</h2>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">How can we help you?</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" id="formsubmit-btn" a>Send</button>
+      </form>
+      <div id="success-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Message sent succesfully</p>
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+ </html>
